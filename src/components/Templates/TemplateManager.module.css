@@ -1,0 +1,56 @@
+.Logo{
+    width: 150px;
+}
+.Body{
+    min-height: 100vh;
+}
+.PopPrice{
+    text-align: end;
+}
+.PopHead{
+    text-transform: uppercase;
+}
+.HeadDisc{
+    margin-top: -10px;
+    font-weight: 400;
+}
+.Item{
+    font-size: 18px;
+    break-inside: avoid;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+}
+.Item p{
+    font-size: 10px;
+    margin-top: -5px;
+    font-weight: 400;
+}
+.Price {
+    margin-top: 12px;
+}
+/* Preventing text selection */
+.Item {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+
+}
+.Image{
+    width: 100%;
+    height: 180px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 35px;
+}
+.OuterImage{
+    width: 300px !important;
+    border-radius: 8px !important;
+}

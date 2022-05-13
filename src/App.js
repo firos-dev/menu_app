@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import TemplateManager from './components/Templates/TemplateManager';
+import logo from "./assets/Restaurant-Logo-PNG-Photo.png"
 
 function App() {
+  const backgroundImage = "https://img.freepik.com/free-photo/silk-fabric-organza-is-light-beige_133187-33.jpg?w=2000"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TemplateManager backgroudColor='#ff00ff' backgroundImage={backgroundImage} logo={logo} />
     </div>
   );
 }
