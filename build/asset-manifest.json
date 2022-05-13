@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7dc84a2b.css",
+    "main.js": "/static/js/main.e6c8270d.js",
+    "static/media/Restaurant-Logo-PNG-Photo.png": "/static/media/Restaurant-Logo-PNG-Photo.42c9de03cecd3dd0e103.png",
+    "index.html": "/index.html",
+    "main.7dc84a2b.css.map": "/static/css/main.7dc84a2b.css.map",
+    "main.e6c8270d.js.map": "/static/js/main.e6c8270d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc84a2b.css",
+    "static/js/main.e6c8270d.js"
+  ]
+}
